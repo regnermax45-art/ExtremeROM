@@ -128,6 +128,8 @@ GET_GALAXY_STORE_DOWNLOAD_URL()
     DEVICES+=("deviceId=SM-S928B&mcc=262&mnc=01&csc=EUX")
     # Galaxy S25 Ultra CHN_OPENX, CHC CSC
     DEVICES+=("deviceId=SM-S9380&mcc=460&mnc=00&csc=CHC")
+    # Galaxy Z Flip 5 EUR_OPENX, EUX CSC
+    DEVICES+=("deviceId=SM-F731B&mcc=262&mnc=01&csc=EUX")
 
     OS="sdkVer="
     OS+="$(GET_PROP "system" "ro.build.version.sdk")"
